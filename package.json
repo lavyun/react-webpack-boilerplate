@@ -5,11 +5,18 @@
     "sao.js",
     "template"
   ],
+  "bin": {
+    "react": "bin/react",
+    "react-init": "bin/react-init"
+  },
   "repository": {
     "url": "git@github.com:SidKwok/react-webpack-boilerplate.git",
     "type": "git"
   },
   "author": "SidKwok <oceankwok@hotmail.com>",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "commander": "^2.9.0"
+  }
 }
